@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    #container {
+        width: 30%;
+        border: 2px solid black;
+        text-align: center;
+        margin-top: 20%;
+        margin-left: 35%;
+        height: 26vh;
+        padding: 5px;
+        padding-top: 37px;
+        background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(9,79,121,1) 39%, rgba(0,212,255,1) 100%);
+    
+    }
+    
+    @media screen and (max-width: 300px) {
+        #container {
+    
+            height : 40%;
+            width : 200px;
+            margin-left: 55px;
+            margin-top: 40%;
+            
+        }
+        
+    }
+    @media screen and (max-width: 300px){
+     {
+        background: black;
+    }
+    }
