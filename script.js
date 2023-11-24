@@ -1,16 +1,16 @@
-function convertMinutesToSeconds() {
-    // Get the input value
-    let price = parseFloat(document.getElementById('minutesInput').value);
+function calculateInterest() {
+    // Get the input amount input
+    let currentAmount = parseFloat(document.getElementById('amountInput').value);
 
     // Check if the input is a valid number
-    if (isNaN(price)) {
-        alert("Please enter a valid number for minutes.");
+    if (isNaN(currentAmount)) {
+        alert("Please enter a valid number for the amount.");
         return;
     }
 
-    // Convert minutes to seconds
-    let seconds = 0.15 * price + price;
+    // calculates the vat amount and adds to the current amount
+    let vatAmount = 0.15 * currentAmount + currentAmount;
 
     // Display the result in the output field
-    document.getElementById('secondsOutput').value = seconds.toFixed(2);
+    document.getElementById('vatOutput').value = vatAmount.toFixed(2);
 }

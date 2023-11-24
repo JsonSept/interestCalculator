@@ -3,17 +3,20 @@
     padding: 0;
     }
     
+    body {
+        background: linear-gradient(90deg, rgba(0,212,255,1) 1%, rgba(9,79,121,1) 50%,  rgba(2,0,36,1) 100%);
+    }
     #container {
         width: 30%;
         border: 2px solid black;
         text-align: center;
-        margin-top: 20%;
+        margin-top: 15%;
         margin-left: 35%;
-        height: 26vh;
+        height: 40vh;
         padding: 5px;
         padding-top: 37px;
         background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(9,79,121,1) 39%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgb(1, 38, 60) 39%,  rgb(2, 97, 116) 100%);
     
     }
     
@@ -28,8 +31,4 @@
         }
         
     }
-    @media screen and (max-width: 300px){
-     {
-        background: black;
-    }
-    }
+    
